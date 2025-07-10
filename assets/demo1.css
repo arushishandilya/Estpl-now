@@ -1,0 +1,88 @@
+body {
+    background-color: #f3f7f9;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .case-header {
+    font-weight: 800;
+    font-size: 2.5rem;
+  }
+  
+  .section-divider {
+    border-bottom: 3px dashed #eee;
+    margin: 1rem 0;
+  }
+  
+  .case-card {
+    background-color: #fff;
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .case-card img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  .case-img {
+    flex: 1;
+    max-width: 350px;
+  }
+  
+  .case-content {
+    flex: 2;
+    padding-left: 2rem;
+  }
+  
+  .case-title {
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+  
+  .case-desc {
+    font-size: 0.95rem;
+    margin-top: 10px;
+    color: #444;
+  }
+  
+  .case-tag {
+    margin-top: 1rem;
+    padding: 0.4rem 1rem;
+    border: 1px solid #000;
+    display: inline-block;
+    font-size: 0.9rem;
+    border-radius: 5px;
+  }
+  
+  .icon-row {
+    margin-top: 1rem;
+  }
+  
+  .icon-row i {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #00c389;
+  }
+  
+  @media (max-width: 768px) {
+    .case-card {
+      flex-direction: column;
+      padding: 1rem;
+    }
+  
+    .case-content {
+      padding-left: 0;
+      padding-top: 1rem;
+    }
+  
+    .case-img {
+      max-width: 100%;
+    }
+  }
+  

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Animated Digits</title>
+  <link rel="stylesheet" href="./demo.css">
+</head>
+<body>
+
+<div class="digits">
+  <!-- E -->
+  <svg class="digit" viewBox="-20 -20 140 240" width="100" height="200" style="--color: #5288E1; --i: 1">
+    <path pathLength="1" d="M 100 0 H 0 V 200 H 100 M 0 100 H 60" />
+  </svg>
+
+  <!-- S -->
+  <svg class="digit" viewBox="-20 -20 140 240" width="100" height="200" style="--color: #3DA658; --i: 2">
+    <path pathLength="1" d="M 100 30 C 100 0, 50 0, 50 0 C 0 0, 0 50, 0 50 C 0 100, 100 100, 100 150 C 100 200, 50 200, 50 200 C 0 200, 0 170, 0 170" />
+  </svg>
+
+  <!-- T -->
+  <svg class="digit" viewBox="-20 -20 140 240" width="100" height="200" style="--color: #EFBE1B; --i: 3">
+    <path pathLength="1" d="M 0 0 H 100 M 50 0 V 200" />
+  </svg>
+
+  <!-- P -->
+  <svg class="digit" viewBox="-20 -20 160 240" width="100" height="200" style="--color: #5288E1; --i: 4">
+    <path pathLength="1" d="M 0 200 V 0 H 60 C 100 0, 100 50, 60 50 H 0" />
+  </svg>
+
+  <!-- L -->
+  <svg class="digit" viewBox="-20 -20 160 240" width="100" height="200" style="--color: #D7483D; --i: 5">
+    <path pathLength="1" d="M 0 0 V 200 H 100" />
+    <circle r="20" cx="80" cy="30" pathLength="1" stroke="#5288E1" fill="none"/>
+    <polygon points="90,0 130,0 110,20" fill="#0A9F4B" stroke="none"/>
+    <polygon points="130,0 110,20 110,60 130,40" fill="#FDC400" stroke="none"/>
+  </svg>
+</div>
+
+</body>
+</html>
